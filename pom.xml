@@ -94,7 +94,7 @@
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>Mithun Technologies Snapshot Nexus Repository</name>
 	      <url>http://3.14.130.63:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
