@@ -86,19 +86,7 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Teja Technologies Releases Nexus Repository</name>
-	      <url>http://18.219.109.75:8081/repository/paytm-release/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Teja Technologies Snapshot Nexus Repository</name>
-	      <url>http://18.219.109.75:8081/repository/paytm-snapshot/</url>
-	    </snapshotRepository>
-	</distributionManagement>
-	
+		
 	
 	<build>
 		<finalName>maven-web-application</finalName>
