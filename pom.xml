@@ -100,12 +100,7 @@
 	    </snapshotRepository>
 
 </distributionManagement>
-	<repositories>
-<repository>
-<id>central</id>
-<url>http://18.219.109.75:8081/repository/paytm-libs-proxy/</url>
-</repository>
-</repositories>
+
 	
 	<build>
 		<finalName>maven-web-application</finalName>
