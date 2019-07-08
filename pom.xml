@@ -100,23 +100,6 @@
 	</distributionManagement>
 	
 	
-	<repositories>
-<repository>
-<id>central</id>
-<url>http://18.219.109.75:8081/repository/paytm-libs-proxy/</url>
-<releases><enabled>true</enabled></releases>
-<snapshots><enabled>true</enabled></snapshots>
-</repository>
-</repositories>
-<pluginRepositories>
-<pluginRepository>
-<id>central</id>
-<url>http://18.219.109.75:8081/repository/paytm-libs-proxy/</url>
-<releases><enabled>true</enabled></releases>
-<snapshots><enabled>true</enabled></snapshots>
-</pluginRepository>
-</pluginRepositories>
-	
 	<build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
