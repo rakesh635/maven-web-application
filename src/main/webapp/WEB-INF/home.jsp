@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Teja Technologies.</h1>
-<h1 align="center">Very Good Training center for DevOps in Chennai started by Pruthvi Teja patnering with Bhupathi Abinash and 
+<h1 align="center">Very Good Training center for DevOps in bangalore started by Pruthvi Teja patnering with Bhupathi Abinash and 
 	also for Job Assitance... and Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <div style="text-align: center;">
