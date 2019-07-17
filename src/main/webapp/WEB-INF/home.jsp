@@ -21,7 +21,7 @@
 
 	</span>
 	<span style="font-weight: bold;">
-		Teja Technologies, 
+		Teja Technologies 
 		Martha Halli,Opp To Madhurai Iddly House
 		Bangalore.
 		+91-9030300262, 9494755725
