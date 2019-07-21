@@ -10,5 +10,7 @@ def mvnHome = tool name: 'maven3.6.1', type: 'maven'
     stage('nexusupload'){
 	sh "${mvnHome}/bin/mvn deploy"
 	}
-
+    stage('sonarreport'){
+	sh "${mvnHome}/bin/mvn sonar:sonar"
+        }
   }
