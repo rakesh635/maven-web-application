@@ -15,7 +15,10 @@ def mvnHome = tool name: 'maven3.6.1', type: 'maven'
         }
 	stage('deploytotomcat'){
 	sshagent(['tomcat-pipeline']) {
-    sh " scp -o StrictHostKeyChecking=no target/*.war ec2-user@18.217.151.48:/opt/apache-tomcat-8.5.42/webapps/ "
+    sh " scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@18.217.151.48:/opt/apache-tomcat-8.5.42/webapps/maven-web-application.war "
 }
   }
+	stage('sendemailnotification'){
+	mail bcc: '', body: 'Build sucess/failure', cc: 'bhupathiabinash@gmail.com', from: '', replyTo: '', subject: 'Build Status', to: 'blrdevopstraining@gmail.com'
+}
 }
