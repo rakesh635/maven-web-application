@@ -6,7 +6,7 @@ def mvnHome = tool name: 'maven3.6.1', type: 'maven'
    }
     stage('build'){
         sh "${mvnHome}/bin/mvn clean package"
- ` }
+   }
     stage('nexusupload'){
 	sh "${mvnHome}/bin/mvn deploy"
 	}
