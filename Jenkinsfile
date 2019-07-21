@@ -13,8 +13,9 @@ def mvnHome = tool name: 'maven3.6.1', type: 'maven'
     stage('sonarreport'){
 	sh "${mvnHome}/bin/mvn sonar:sonar"
         }
-	stage('deploytotomcat')
+	stage('deploytotomcat'){
 	sshagent(['tomcat-pipeline']) {
     sh " scp -o StrictHostKeyChecking=no target/*.war ec2-user@18.217.151.48:/opt/apache-tomcat-8.5.42/webapps/
 }
   }
+}
