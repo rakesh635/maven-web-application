@@ -103,7 +103,13 @@
 	    </snapshotRepository>
 
 </distributionManagement>
-
+	
+<repositories>
+    <repository>
+	<id>central</id>
+	<url>http://18.222.221.197:8081/repository/flipkart-proxy/</url>
+    </repository>  
+</repositories>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
