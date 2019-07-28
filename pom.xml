@@ -88,6 +88,20 @@
 		</dependency>
 
 	</dependencies>
+		<distributionManagement>
+
+	    <repository>
+	      <id>nexus</id>
+	      <name>Teja Technologies Releases Nexus Repository</name>
+              <url>http://18.218.192.37:8081/repository/amazon-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Teja Technologies Snapshot Nexus Repository</name>
+	      <url>http://18.218.192.37:8081/repository/amazon-snapshot/</url>
+	    </snapshotRepository>
+
+</distributionManagement>
 	
 
 	
