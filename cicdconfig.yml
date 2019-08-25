@@ -1,0 +1,6 @@
+parameter:
+  appname: webapplication
+  deployment:
+    strategy: rollingupdate
+    # rollingupdate , bluegreen , canary
+    # default is rollingupdate
