@@ -3,7 +3,7 @@ node('master'){
 def mvnHome = tool name: 'maven-3.6.1', type: 'maven'
 
     stage('scm checkout'){
-    git credentialsId: 'fdd20077-d9e7-4815-a9eb-79a64db504eb', url: 'https://github.com/maven-projects-blr/maven-web-application.git'
+    git credentialsId: 'xx-xxx-xxxx', url: 'https://github.com/maven-projects-blr/maven-web-application.git'
    }
 
     stage('build'){
